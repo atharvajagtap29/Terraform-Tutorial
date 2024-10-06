@@ -1,0 +1,6 @@
+# aws_region  = "us-east-1"
+bucket_name   = "terraform-lovers-bucket-4687"
+ami_id        = "ami-078264b8ba71bc45e"
+instance_type = "t2.micro"
+subnet_id     = "subnet-0d91a2b35c14f1051"
+key_name      = "Test_KP_Cloud.in"
