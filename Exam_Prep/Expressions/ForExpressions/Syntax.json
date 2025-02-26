@@ -1,0 +1,42 @@
+{
+  "Syntaxes": [
+    {
+      "Basic_For_Syntax": {
+        "console_commands": [
+          {
+            "command": "[for w in var.Worlds : upper(w)]",
+            "output": [
+              "EARTH",
+              "MARS",
+              "KEPLER-452B",
+              "TITAN",
+              "PROXIMA-CENTAURI-B",
+              "TOI-700"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key_Value_For": {
+        "console_commands": [
+          {
+            "command": "[for k, v in var.Days_Per_Year : upper(v)]",
+            "output": ["365.25", "385", "687", "11.18", "7.9", "15.95"]
+          },
+          {
+            "command": "[for k, v in var.Days_Per_Year : upper(k)]",
+            "output": [
+              "EARTH",
+              "KEPLER-452B",
+              "MARS",
+              "PROXIMA-CENTAURI-B",
+              "TOI-700",
+              "TITAN"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
